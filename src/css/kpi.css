@@ -70,23 +70,23 @@
     padding: 1px 6px;
     border-radius: 4px;
     letter-spacing: 0.2px;
-    background: rgba(255, 255, 255, 0.04);
+    background: rgba(16, 35, 26, 0.04);
 }
 
 .kpi-pill.green {
-    color: #6EE7B7;
+    color: #047857;
 }
 
 .kpi-pill.amber {
-    color: #FCD34D;
+    color: #B45309;
 }
 
 .kpi-pill.red {
-    color: #FCA5A5;
+    color: #B91C1C;
 }
 
 .kpi-pill.blue {
-    color: #7DD3FC;
+    color: #0369A1;
 }
 
 .kpi-value {
@@ -100,14 +100,14 @@
 
 .kpi-subtext {
     font-size: 0.72rem;
-    color: #94A3B8;
+    color: #5B6B61;
     font-weight: 500;
 }
 
 .kpi-progress-bar {
     width: 100%;
     height: 4px;
-    background: rgba(255, 255, 255, 0.08);
+    background: rgba(16, 35, 26, 0.08);
     border-radius: 2px;
     margin: 8px 0 4px 0;
     overflow: hidden;
@@ -127,6 +127,6 @@
     color: var(--text-muted);
     margin-top: 6px;
     padding-top: 6px;
-    border-top: 1px solid rgba(255, 255, 255, 0.05);
+    border-top: 1px solid rgba(16, 35, 26, 0.05);
 }
 

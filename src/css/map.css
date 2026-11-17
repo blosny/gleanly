@@ -11,7 +11,7 @@
 
 /* Gerçek Dark Mode OSM Katmanı (Sıfır Token, Filigransız B2B Obsidian Tema) */
 .dark-osm-tiles {
-    filter: invert(100%) hue-rotate(180deg) brightness(85%) contrast(90%);
+    filter: saturate(0.85) contrast(0.96);
 }
 
 @media (max-width: 992px) {
@@ -31,14 +31,14 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: #0E2025;
+    background: #EFEDE4;
     padding: 10px 16px;
     border: 1px solid var(--bg-card-border);
     border-bottom: none;
     border-top-left-radius: var(--radius-md);
     border-top-right-radius: var(--radius-md);
     font-size: 0.8rem;
-    color: #FFFFFF;
+    color: #10231A;
 }
 
 .map-header-title {
@@ -47,7 +47,7 @@
     gap: 8px;
     font-weight: 700;
     font-family: var(--font-heading);
-    color: #F8FAFC;
+    color: #10231A;
 }
 
 .map-header-tags {
@@ -57,7 +57,7 @@
 }
 
 .tag-corridor {
-    color: #6EE7B7;
+    color: #047857;
     font-size: 0.72rem;
     font-weight: 600;
     padding: 2px 6px;
@@ -72,9 +72,9 @@
 }
 
 .btn-center-map {
-    background: rgba(255, 255, 255, 0.08);
-    border: 1px solid rgba(255, 255, 255, 0.15);
-    color: #CBD5E1;
+    background: rgba(16, 35, 26, 0.08);
+    border: 1px solid rgba(16, 35, 26, 0.15);
+    color: #3D5247;
     font-size: 0.72rem;
     padding: 3px 10px;
     border-radius: 4px;
@@ -83,8 +83,8 @@
 }
 
 .btn-center-map:hover {
-    background: rgba(255, 255, 255, 0.15);
-    color: #FFFFFF;
+    background: rgba(16, 35, 26, 0.15);
+    color: #10231A;
 }
 
 .map-container {
@@ -93,7 +93,7 @@
     border-left: 1px solid var(--bg-card-border);
     border-right: 1px solid var(--bg-card-border);
     overflow: hidden;
-    background: #061114;
+    background: #F2F0E8;
 }
 
 /* Map Telemetry Bar */
@@ -101,7 +101,7 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 10px;
-    background: #0B171B;
+    background: #FBFAF6;
     padding: 10px 16px;
     border: 1px solid var(--bg-card-border);
     border-top: none;
@@ -123,7 +123,7 @@
 
 .telemetry-item strong {
     font-size: 0.84rem;
-    color: #FFFFFF;
+    color: #10231A;
     font-family: var(--font-heading);
 }
 
@@ -135,8 +135,8 @@
 }
 
 .filter-chip {
-    background: rgba(255, 255, 255, 0.05);
-    border: 1px solid rgba(255, 255, 255, 0.1);
+    background: rgba(16, 35, 26, 0.05);
+    border: 1px solid rgba(16, 35, 26, 0.1);
     color: var(--text-secondary);
     font-size: 0.72rem;
     padding: 3px 10px;
@@ -147,7 +147,7 @@
 
 .filter-chip.active {
     background: rgba(16, 185, 129, 0.14);
-    color: #6EE7B7;
+    color: #047857;
     font-weight: 600;
     border-color: rgba(16, 185, 129, 0.35);
 }
@@ -175,7 +175,7 @@
     display: flex;
     align-items: center;
     gap: 8px;
-    color: #FFFFFF;
+    color: #10231A;
 }
 
 /* Timeline */
@@ -192,15 +192,15 @@
     display: flex;
     align-items: center;
     gap: 10px;
-    background: rgba(15, 23, 42, 0.7);
+    background: rgba(251, 250, 246, 0.7);
     padding: 8px 10px;
     border-radius: var(--radius-sm);
-    border: 1px solid rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(16, 35, 26, 0.05);
     transition: all 0.2s ease;
 }
 
 .timeline-step:hover {
-    background: rgba(15, 23, 42, 0.95);
+    background: rgba(251, 250, 246, 0.95);
     border-color: rgba(16, 185, 129, 0.3);
 }
 
@@ -236,18 +236,18 @@
 .step-village {
     font-weight: 600;
     font-size: 0.82rem;
-    color: #FFFFFF;
+    color: #10231A;
 }
 
 .step-sacks {
     font-size: 0.72rem;
-    color: #34D399;
+    color: #047857;
     font-weight: 500;
 }
 
 .badge-road-blocked {
     background: transparent;
-    color: #F87171;
+    color: #DC2626;
     font-size: 0.68rem;
     font-weight: 500;
     display: inline-flex;
@@ -263,7 +263,7 @@
 
 .badge-road-open {
     background: transparent;
-    color: #94A3B8;
+    color: #5B6B61;
     font-size: 0.68rem;
     font-weight: 500;
     display: inline-flex;
@@ -302,9 +302,9 @@
     width: 38px;
     height: 38px;
     border-radius: 50%;
-    background: #0B171B;
+    background: #FBFAF6;
     border: 2px solid var(--primary);
-    color: #FFFFFF;
+    color: #10231A;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -315,7 +315,7 @@
 
 .urgency-critical .waste-pin-styled {
     border-color: var(--danger);
-    background: #1A0B0B;
+    background: #FBEFEA;
 }
 
 .stop-number {
@@ -336,7 +336,7 @@
 }
 
 .map-popup-card h4 {
-    color: #93C5FD;
+    color: #1D4ED8;
     font-size: 0.95rem;
     margin-bottom: 6px;
 }
@@ -344,11 +344,11 @@
 .map-popup-card p {
     font-size: 0.8rem;
     margin: 3px 0;
-    color: #E2E8F0;
+    color: #1F3A2E;
 }
 
 .tag-road-blocked {
-    color: #FEB2B2;
+    color: #B91C1C;
     background: rgba(239, 68, 68, 0.25);
     padding: 2px 6px;
     border-radius: 4px;
@@ -361,7 +361,7 @@
 .popup-eta {
     margin-top: 6px;
     font-size: 0.76rem;
-    color: #6EE7B7;
+    color: #047857;
     background: rgba(16, 185, 129, 0.15);
     padding: 3px 6px;
     border-radius: 4px;

@@ -1,50 +1,51 @@
 /* ============================================================
    GLEANLY - DESIGN SYSTEM VARIABLES & TOKENS
-   Enterprise Clean-Tech / Circular Bio-Economy
+   Light theme: forest green + lime on warm off-white
    ============================================================ */
 
 :root {
-    /* Primary Emerald / Ecological Bio-Green (Refined Deep Emerald) */
-    --primary: #059669;
-    --primary-light: rgba(5, 150, 105, 0.12);
-    --primary-border: rgba(16, 185, 129, 0.28);
-    --primary-glow: rgba(5, 150, 105, 0.20);
-    --primary-gradient: linear-gradient(135deg, #059669 0%, #047857 100%);
-    --primary-gradient-hover: linear-gradient(135deg, #10B981 0%, #059669 100%);
+    /* Gleanly palette: forest green, lime road, warm off-white */
+    --primary: #14532D;
+    --primary-light: rgba(20, 83, 45, 0.08);
+    --primary-border: rgba(20, 83, 45, 0.22);
+    --primary-glow: rgba(20, 83, 45, 0.14);
+    --primary-gradient: linear-gradient(135deg, #166534 0%, #14532D 100%);
+    --primary-gradient-hover: linear-gradient(135deg, #15803D 0%, #166534 100%);
+    --accent-lime: #84CC16;
 
-    /* Amber / Hazelnut Züruf Accent */
-    --accent-amber: #F59E0B;
-    --accent-amber-hover: #D97706;
-    --accent-amber-light: rgba(245, 158, 11, 0.14);
-    --accent-amber-border: rgba(245, 158, 11, 0.35);
+    /* Amber / harvest accent */
+    --accent-amber: #D97706;
+    --accent-amber-hover: #B45309;
+    --accent-amber-light: rgba(217, 119, 6, 0.12);
+    --accent-amber-border: rgba(217, 119, 6, 0.32);
 
-    /* Functional Accents */
-    --accent-blue: #0284C7;
-    --danger: #EF4444;
-    --warning: #F59E0B;
-    --success: #10B981;
+    /* Functional accents */
+    --accent-blue: #0369A1;
+    --danger: #DC2626;
+    --warning: #D97706;
+    --success: #15803D;
 
-    /* Backgrounds & Surfaces (Obsidian Clean-Tech) */
-    --bg-dark: #071215;
-    --bg-surface: #0B171B;
-    --bg-card: rgba(13, 27, 32, 0.85);
-    --bg-card-border: rgba(255, 255, 255, 0.09);
-    --bg-glass: rgba(11, 23, 27, 0.92);
+    /* Backgrounds & surfaces (off-white, never pure white) */
+    --bg-dark: #F7F5EF;
+    --bg-surface: #FBFAF6;
+    --bg-card: rgba(251, 250, 246, 0.92);
+    --bg-card-border: rgba(16, 35, 26, 0.10);
+    --bg-glass: rgba(251, 250, 246, 0.94);
 
     /* Typography */
-    --text-primary: #F8FAFC;
-    --text-secondary: #94A3B8;
-    --text-muted: #64748B;
+    --text-primary: #10231A;
+    --text-secondary: #3D5247;
+    --text-muted: #6B7A73;
     --font-heading: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
     --font-body: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
 
-    /* Radii & Elevation */
+    /* Radii & elevation */
     --radius-sm: 8px;
     --radius-md: 14px;
     --radius-lg: 20px;
     --radius-full: 9999px;
 
-    --shadow-sm: 0 2px 6px rgba(0, 0, 0, 0.15);
-    --shadow-md: 0 6px 18px rgba(0, 0, 0, 0.25);
-    --shadow-lg: 0 16px 36px rgba(0, 0, 0, 0.45);
+    --shadow-sm: 0 2px 6px rgba(16, 35, 26, 0.08);
+    --shadow-md: 0 6px 18px rgba(16, 35, 26, 0.10);
+    --shadow-lg: 0 16px 36px rgba(16, 35, 26, 0.14);
 }

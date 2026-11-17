@@ -1,6 +1,6 @@
 # Yol Haritası
 
-Son güncelleme: 15 Kasım 2026. Bu plan bugünkü bilgiyle yapıldı; saha görüşmeleri geldikçe değişecek. Günlük işler için [TODO.md](TODO.md).
+Son güncelleme: 17 Kasım 2026. Bu plan bugünkü bilgiyle yapıldı; saha görüşmeleri geldikçe değişecek. Günlük işler için [TODO.md](TODO.md).
 
 ## Hedef
 
@@ -10,7 +10,7 @@ Zürüfün köylerden toplanıp nemine göre santrale ya da komposta yönlendiri
 
 | Aşama | Zaman | Amaç | Bitti sayılır |
 |---|---|---|---|
-| **1. Teslimler** | Kasım 2026 | GSC teklifi ve videosu, Creathon finali | Teklif ve video gönderildi |
+| **1. Teslimler** | Kasım 2026 | GSC teklifi ve videosu | Teklif ve video gönderildi |
 | **2. Doğrulama** | Aralık 2026 - Ocak 2027 | Gerçek kullanıcıdan ve alıcıdan kanıt | En az 15 çiftçi görüşmesi; ziraat odası ve nakliyeci görüşmesi; alıcıdan kurumsal teyit; ikinci bir alıcıdan cevap |
 | **3. Doğru hesap ve yapay zekâ** | Ocak - Nisan 2027 | Rakamların ve botun sağlamlaştırılması | Yakıt/mesafe hesabı OSRM matrisiyle çalışıyor ve testli; dil modeli asistanı çalışıyor; alıcı kaydı ve fabrikaya yönlendirme çalışıyor |
 | **4. Altyapı** | Şubat - Mayıs 2027 | Gerçek kullanıma hazırlık | Arka uç, veritabanı, kullanıcı rolleri, WhatsApp Business API, kendi OSRM sunucusu |

@@ -7,15 +7,15 @@
     <link rel="icon" type="image/png" href="assets/logo.png">
     <style>
         :root {
-            --bg: #071215;
-            --card: #0D1B20;
-            --line: rgba(255, 255, 255, 0.09);
-            --text: #F8FAFC;
-            --muted: #94A3B8;
-            --green: #34D399;
-            --amber: #FBBF24;
-            --blue: #38BDF8;
-            --red: #F87171;
+            --bg: #F7F5EF;
+            --card: #FBFAF6;
+            --line: rgba(16, 35, 26, 0.12);
+            --text: #10231A;
+            --muted: #5B6B61;
+            --green: #047857;
+            --amber: #B45309;
+            --blue: #0369A1;
+            --red: #B91C1C;
         }
         * { box-sizing: border-box; }
         body {
@@ -30,7 +30,7 @@
         .back { display: inline-block; margin-bottom: 20px; font-size: 0.9rem; text-decoration: none; }
         h1 { font-size: 1.9rem; margin: 0 0 8px; }
         h2 { font-size: 1.25rem; margin: 40px 0 12px; padding-bottom: 8px; border-bottom: 1px solid var(--line); }
-        p, li { color: #CBD5E1; font-size: 0.95rem; }
+        p, li { color: #3D5247; font-size: 0.95rem; }
         .lead { color: var(--muted); max-width: 760px; }
         .legend { display: flex; flex-wrap: wrap; gap: 8px 16px; margin: 16px 0 0; padding: 0; list-style: none; font-size: 0.85rem; }
         .table-wrap { overflow-x: auto; border: 1px solid var(--line); border-radius: 12px; background: var(--card); }
@@ -43,15 +43,15 @@
         .pill { display: inline-block; padding: 2px 10px; border-radius: 999px; font-size: 0.75rem; font-weight: 700; border: 1px solid; white-space: nowrap; }
         .ok { color: var(--green); border-color: rgba(52, 211, 153, 0.45); background: rgba(52, 211, 153, 0.1); }
         .range { color: var(--blue); border-color: rgba(56, 189, 248, 0.45); background: rgba(56, 189, 248, 0.1); }
-        .calc { color: #A5B4FC; border-color: rgba(165, 180, 252, 0.45); background: rgba(165, 180, 252, 0.1); }
+        .calc { color: #4338CA; border-color: rgba(165, 180, 252, 0.45); background: rgba(165, 180, 252, 0.1); }
         .assume { color: var(--amber); border-color: rgba(251, 191, 36, 0.45); background: rgba(251, 191, 36, 0.1); }
-        .mail { color: #C4B5FD; border-color: rgba(196, 181, 253, 0.45); background: rgba(196, 181, 253, 0.1); }
+        .mail { color: #6D28D9; border-color: rgba(196, 181, 253, 0.45); background: rgba(196, 181, 253, 0.1); }
         .no { color: var(--red); border-color: rgba(248, 113, 113, 0.45); background: rgba(248, 113, 113, 0.1); }
         .refs { padding-left: 0; list-style: none; counter-reset: ref; }
         .refs li { position: relative; padding: 12px 14px 12px 56px; margin-bottom: 10px; background: var(--card); border: 1px solid var(--line); border-radius: 12px; }
         .refs li::before { counter-increment: ref; content: "K" counter(ref); position: absolute; left: 14px; top: 12px; font-weight: 700; color: var(--green); }
         .refs li:target { border-color: var(--green); }
-        code { background: rgba(255, 255, 255, 0.07); padding: 1px 6px; border-radius: 6px; font-size: 0.85em; }
+        code { background: rgba(16, 35, 26, 0.07); padding: 1px 6px; border-radius: 6px; font-size: 0.85em; }
         .note { padding: 14px 16px; border-left: 3px solid var(--amber); background: rgba(251, 191, 36, 0.07); border-radius: 0 10px 10px 0; }
     </style>
 </head>

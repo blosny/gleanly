@@ -153,11 +153,11 @@ export async function renderReports(reports) {
     const besIcon = L.divIcon({
         className: 'custom-bes-marker',
         html: `
-            <div class="marker-hq-badge" style="background:#0F172A; border-color:#F59E0B; box-shadow:0 0 16px rgba(245,158,11,0.45);">
+            <div class="marker-hq-badge" style="background:#FBFAF6; border-color:#F59E0B; box-shadow:0 0 16px rgba(245,158,11,0.45);">
                 <span class="hq-icon" style="background:#F59E0B; color:#0F172A;">
                     <svg class="icon-svg sm" viewBox="0 0 24 24"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg>
                 </span>
-                <span class="hq-title" style="color:#FCD34D;">Oltan & Köleoğlu BES (27 MWe)</span>
+                <span class="hq-title" style="color:#B45309;">Oltan & Köleoğlu BES (27 MWe)</span>
             </div>
         `,
         iconSize: [250, 48],
@@ -168,7 +168,7 @@ export async function renderReports(reports) {
         .bindPopup(`
             <div class="map-popup-card">
                 <div class="popup-header">
-                    <span class="stop-badge" style="background:rgba(245,158,11,0.2); color:#FCD34D; border-color:#F59E0B;">Hedef Santral Kantarı</span>
+                    <span class="stop-badge" style="background:rgba(245,158,11,0.2); color:#B45309; border-color:#F59E0B;">Hedef Santral Kantarı</span>
                     <h4>${plant.name}</h4>
                 </div>
                 <p><b>Konum:</b> ${plant.location}</p>
@@ -344,10 +344,10 @@ function updateRouteTimeline(orderedStops) {
                 <div class="step-details">
                     <div style="display:flex; justify-content:space-between; align-items:center; gap:6px;">
                         <span class="step-village">${stop.village}</span>
-                        <span style="font-size:0.72rem; color:#94A3B8;">${stop.farmer || 'Üretici'}</span>
+                        <span style="font-size:0.72rem; color:#5B6B61;">${stop.farmer || 'Üretici'}</span>
                     </div>
                     <div style="display:flex; justify-content:space-between; align-items:center; margin-top:3px; gap:6px;">
-                        <span class="step-sacks">${stop.sacks} çuval <small style="color:#64748B;">(~${(stop.sacks * 0.045).toFixed(1)}t)</small></span>
+                        <span class="step-sacks">${stop.sacks} çuval <small style="color:#6B7A73;">(~${(stop.sacks * 0.045).toFixed(1)}t)</small></span>
                         ${roadBadge}
                     </div>
                 </div>

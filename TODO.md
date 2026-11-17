@@ -1,25 +1,26 @@
 # TODO
 
-Son güncelleme: 15 Kasım 2026. Önemli tarihler: COP31 Creathon finali 17-18 Kasım (Antalya), GSC Phase 1 teslimi 22 Kasım 23:59 UTC, İstanbul buluşması Aralık, ilk pilot fırsatı Ağustos 2027 hasadı. Ayrıntılı plan: [ROADMAP.md](ROADMAP.md).
+Son güncelleme: 17 Kasım 2026. Önemli tarihler: GSC Phase 1 teslimi 22 Kasım 23:59 UTC, İstanbul buluşması Aralık, ilk pilot fırsatı Ağustos 2027 hasadı. Ayrıntılı plan: [ROADMAP.md](ROADMAP.md).
 
-## Bu hafta: GSC ve Creathon
+## Bu hafta: GSC teslimi
 
-- [ ] GSC teklifini PDF olarak dışa aktar ve forma yükle (10 MB altı)
-- [ ] GSC teklifine rakip/benzer firmalar satırını ve farklılaşma maddelerini ekle
-- [ ] 2 dakikayı geçmeyen proje tanıtım videosunu çek ve YouTube'a "liste dışı" yükle
-- [ ] Formdaki üç beyan kutusunu işaretle (belge yüklendikten sonra)
-- [ ] Creathon finali sunumunda eski rakamları güncelle (0,74 t CO2e, 19.800 TL, 16.200 TL)
-- [ ] LinkedIn gönderisindeki görselleri yenileriyle değiştir
+- [x] GSC teklifi hazırlandı, yeni adla güncellendi; rakip/benzer firmalar slaytı eklendi (21 slayt)
+- [ ] GSC takım adını ve özetini formda "Gleanly" yap; takım görselini yenisiyle değiştir (`docs/gsc/gleanly_team_1024x576.png`)
+- [ ] Teklifi PDF olarak dışa aktar (10 MB altı), 5. sayfadaki rakip slaytının taşmadığını kontrol et, forma yükle
+- [ ] 2 dakikayı geçmeyen proje tanıtım videosunu çek, YouTube'a "liste dışı" yükle, bağlantıyı forma yapıştır
+- [ ] Formdaki üç beyan kutusunu işaretle (belge yüklendikten sonra) ve gönder
+- [ ] LinkedIn gönderisindeki görselleri yenileriyle değiştir (`docs/linkedin/`)
+- [ ] GitHub "About" bölümündeki web sitesi alanı `https://blosny.github.io/gleanly/` olsun
 
-## Yeniden adlandırma (Gapçuk AI → Gleanly)
+## Marka (Gapçuk AI → Gleanly)
 
-- [x] Arayüz, kod yorumları, README ve simülasyondaki ad değişikliği (yerelde, push edilmedi)
-- [ ] Gleanly için TÜRKPATENT ve WIPO marka araması ("Glean" adlı büyük bir yazılım firması var, benzerlik riski)
+- [x] Arayüz, kod, README, simülasyon ve kaynakça yeni adla; yeni logo ve favicon
+- [x] Depo adı `gleanly`, Pages adresi `blosny.github.io/gleanly` (eski adres kapandı)
+- [x] Site açık (kırık beyaz) temaya geçti: koyu orman yeşili `#14532D`, açık yeşil `#84CC16`, zemin `#F7F5EF`. Simülasyon sayfası koyu sahne olarak kaldı
+- [ ] TÜRKPATENT ve WIPO marka araması ("Glean" adlı büyük bir yazılım firması var, benzerlik riski)
 - [ ] gleanly.ai / .io / .co alan adlarını ve sosyal medya hesaplarını ayır (.com alınmış)
-- [ ] Yeni logo: şu anki logo fındık motifli; tarımsal atık için genel bir işaret gerekiyor
-- [ ] GSC teklif PDF'i, video metni ve takım adı yeni adla uyumlu hale getirilecek (teslim 22 Kasım)
-- [x] Depo adı `gleanly` oldu, Pages adresi `blosny.github.io/gleanly`; eski adres kapandı. LinkedIn, GitHub About ve deck bağlantıları güncellenecek
-- [ ] Creathon decki ve LinkedIn görselleri yeni adla güncellenecek
+- [ ] Vercel yedek adresi ve eski belgeler (PDR, Creathon decki) yeni adla güncellenecek ya da kaldırılacak
+- [ ] Video anlatısını en sonda güncelle: ilk pilot fındık zürufu, amaç toplanabilecek tüm biyokütle atıkları ve biyoyakıt hammaddeleri
 
 ## Hesaplar (yüksek öncelik)
 
@@ -67,10 +68,12 @@ Son güncelleme: 15 Kasım 2026. Önemli tarihler: COP31 Creathon finali 17-18 K
 
 ## Tasarım
 
+- [x] Açık tema ve yeni renk paleti (ana site, bilgi merkezi, kaynakça)
 - [ ] Biyolink benzeri sade bir tanıtım sayfası: büyük başlık, nasıl çalışır, hizmet kartları, atık türü etiketleri, tek çağrı butonu
 - [ ] "Rakamlarla" bölümü yalnızca ölçülmüş pilot sayılarıyla; o zamana kadar "pilot hedefleri" etiketli
 - [ ] Uydurma müşteri yorumu koyma; gerçek yorum gelince ekle
 - [ ] Operatör paneli ile tanıtım sayfasını ayrı tut
+- [ ] Mobil görünümü kontrol et
 
 ## Tamamlananlar
 
@@ -79,8 +82,5 @@ Son güncelleme: 15 Kasım 2026. Önemli tarihler: COP31 Creathon finali 17-18 K
 - [x] CO2 hesabının IPCC faktörleriyle yeniden yapılması
 - [x] Santral fiyatının yazışmaya göre 2.000 TL/ton + KDV olarak düzeltilmesi
 - [x] GitHub Pages ile erişilebilir yayın
-- [x] GSC takımı kuruldu ve teklif taslağı hazırlandı
-
-## Tüm işler bitince
-- [ ] Video metnini ve GSC teklifini güncelle: ilk pilot fındık zürufu, amaç ise toplanabilecek tüm biyokütle atıkları ve biyoyakıt hammaddeleri
-- [ ] Gleanly logosu seçilince `logo.png`, `logo-readme.png`, GSC takım görseli ve LinkedIn görsellerini yenile
+- [x] GSC takımı kuruldu ve teklif hazırlandı
+- [x] Yeniden adlandırma, yeni logo, açık tema, güncel ekran görüntüleri

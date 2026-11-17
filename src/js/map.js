@@ -1,5 +1,5 @@
 /**
- * Gapçuk AI - Gerçek Yol Takip Motoru & Leaflet Harita Modülü
+ * Gleanly - Gerçek Yol Takip Motoru & Leaflet Harita Modülü
  * OSRM (Open Source Routing Machine) ile gerçek viraj ve asfalt takibi
  * Nearest-Neighbor TSP Algoritması ile sıralı durak optimizasyonu (1, 2, 3...)
  */

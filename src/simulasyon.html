@@ -1,5 +1,5 @@
 <!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
-<title>Gapçuk Döngüsü</title>
+<title>Gleanly Döngüsü</title>
 <meta name="claude:viewport-fit-sides" content="cover">
 <style>html,body{background:#071215;color:#F4F1E8;margin:0;color-scheme:dark}</style>
 <div id="root"></div>
@@ -12,7 +12,7 @@
 const { useState, useEffect, useRef } = React;
 const {  Play, Pause, RotateCcw, Leaf, Truck, Factory, Sprout,  Coins, Wallet, ShieldCheck, AlertTriangle, FileCheck, FlaskConical,} = LucideReact;
 
-/* Gapçuk AI · Canlı Biyokütle Döngüsü Simülasyonu
+/* Gleanly · Canlı Biyokütle Döngüsü Simülasyonu
    Tek dosya: React + lucide-react + saf CSS/SVG. */
 
 const STEP_SECONDS = 7; // 1x hızda her aşamanın süresi
@@ -45,7 +45,7 @@ const STEPS = [
   },
   {
     key: "rota",
-    title: "GapçukRoute™",
+    title: "GleanlyRoute™",
     sub: "Dağ lojistiği",
     icon: Truck,
     tone: "amber",
@@ -136,7 +136,7 @@ const fmtDec = (n) => n.toLocaleString("tr-TR", { minimumFractionDigits: 1, maxi
 const fmt2 = (n) => n.toLocaleString("tr-TR", { minimumFractionDigits: 2, maximumFractionDigits: 2 });
 const sum = (arr, step, t) => arr.slice(0, step).reduce((a, b) => a + b, 0) + arr[step] * t;
 
-function GapcukDongu() {
+function GleanlyDongu() {
   const reduced =
     typeof window !== "undefined" && window.matchMedia &&
     window.matchMedia("(prefers-reduced-motion: reduce)").matches;
@@ -268,10 +268,10 @@ function GapcukDongu() {
       <header className="gx-head">
         <div className="gx-brand">
           <p className="gx-eyebrow">
-            <span className="gx-dot" /> Gapçuk AI · Climathon 2026 · Siemens × UP School
+            <span className="gx-dot" /> Gleanly · Climathon 2026 · Siemens × UP School
           </p>
           <h1 className="gx-title">
-            Gapçuk <span>Döngüsü</span>
+            Gleanly <span>Döngüsü</span>
           </h1>
           <p className="gx-deck">
             Bir köy rotasında fındık zürufunun patozdan santrale, oradan fındık ocağının köküne dönüşü.
@@ -928,7 +928,7 @@ const CSS = `
   .gx *, .gx *::before, .gx *::after { animation: none !important; transition: none !important; }
 }
 `;
-ReactDOM.createRoot(document.getElementById("root")).render(<GapcukDongu />);
+ReactDOM.createRoot(document.getElementById("root")).render(<GleanlyDongu />);
 </script>
 
 </body></html>

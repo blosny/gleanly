@@ -1,5 +1,5 @@
 /**
- * Gapçuk AI - Çoklu Dil Motoru (TR / EN Language Engine)
+ * Gleanly - Çoklu Dil Motoru (TR / EN Language Engine)
  * COP31, Global Sustainability Challenge & Uluslararası Jüri Desteği
  */
 
@@ -9,12 +9,12 @@ export const TRANSLATIONS = {
         partner_bes: "Hedef: Oltan & Köleoğlu Çarşamba BES (27 MWe)",
         protocol: "Climathon 2026 · Siemens × YGA × UP School",
         brand_subtitle: "<span>Ordu / Ünye Pilot Havzası</span><span>•</span><span>Fındık Zürufu Döngüsel Lojistik & Külleme Önleme Konsolu</span>",
-        btn_faq: "Gapçuk Rehberi & SSS (8 Soru)",
+        btn_faq: "Saha Rehberi & SSS (8 Soru)",
         role_operator: "Operatör Paneli",
         role_farmer: "Çiftçi Görünümü",
         tab_map: "Dinamik Rota & Lojistik",
         tab_farmer: "Çiftçi WhatsApp Bildirimi",
-        tab_bio: "GapçukBio & Trichoderma",
+        tab_bio: "GleanlyBio & Trichoderma",
         kpi_sacks_title: "Toplam Toplanan Züruf",
         kpi_sacks_sub: "Kapasite Hedefi: 300 Çuval/Gün",
         kpi_sacks_footer: "Örnek bildirimler (demo verisi)",
@@ -41,12 +41,12 @@ export const TRANSLATIONS = {
         partner_bes: "Target: Oltan & Köleoğlu Çarşamba Biomass Plant (27 MWe)",
         protocol: "Climathon 2026 · Siemens × YGA × UP School",
         brand_subtitle: "<span>Ordu / Ünye Pilot Basin</span><span>•</span><span>Hazelnut Husk Circular Logistics & Mildew Prevention Console</span>",
-        btn_faq: "Gapçuk Field Guide & FAQ (8 Qs)",
+        btn_faq: "Field Guide & FAQ (8 Qs)",
         role_operator: "Operator Console",
         role_farmer: "Farmer View",
         tab_map: "Dynamic Route & Logistics",
         tab_farmer: "Farmer WhatsApp Reporting",
-        tab_bio: "GapçukBio & Trichoderma",
+        tab_bio: "GleanlyBio & Trichoderma",
         kpi_sacks_title: "Total Collected Husk",
         kpi_sacks_sub: "Capacity Target: 300 Sacks/Day",
         kpi_sacks_footer: "Sample reports (demo data)",
@@ -73,7 +73,7 @@ export const TRANSLATIONS = {
 let currentLang = 'tr';
 
 export function initLanguage() {
-    const saved = localStorage.getItem('gapcuk_lang') || 'tr';
+    const saved = localStorage.getItem('gleanly_lang') || 'tr';
     setLanguage(saved);
 
     window.switchLanguage = (lang) => {
@@ -83,7 +83,7 @@ export function initLanguage() {
 
 export function setLanguage(lang) {
     currentLang = lang;
-    localStorage.setItem('gapcuk_lang', lang);
+    localStorage.setItem('gleanly_lang', lang);
 
     // Düğme aktifliğini güncelle
     const btnTr = document.getElementById('lang-btn-tr');

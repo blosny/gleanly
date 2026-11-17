@@ -1,19 +1,19 @@
-# Gapçuk AI
+# Gleanly
 
-<img src="src/assets/logo-readme.png" alt="Gapçuk AI logosu" width="120" align="right">
+<img src="src/assets/logo-readme.png" alt="Gleanly logosu" width="120" align="right">
 
 ![Climathon 2026](https://img.shields.io/badge/Climathon%202026-Siemens%20%C2%B7%20YGA%20%C2%B7%20UP%20School-0F766E)
 ![Sonuç](https://img.shields.io/badge/Sonu%C3%A7-5.%20s%C4%B1ra-D97706)
 ![Pilot](https://img.shields.io/badge/Pilot-Ordu%20%2F%20%C3%9Cnye-15803D)
-[![Demo](https://img.shields.io/badge/Demo-GitHub%20Pages-2563EB)](https://blosny.github.io/climathon-gapcuk-ai/)
+[![Demo](https://img.shields.io/badge/Demo-GitHub%20Pages-2563EB)](https://blosny.github.io/gleanly/)
 
-Fındık zürufunu (yöresel adıyla **gapçuk**) yakılan bir atıktan temiz enerjiye ve komposta dönüştüren döngüsel bir lojistik platformu. **Siemens, YGA ve UP School Climathon 2026** programında Ordu / Ünye pilot bölgesi için geliştirildi.
+**Gleanly** (eski adı Gapçuk AI), tarlada kalan tarımsal atığı yakılan bir atıktan temiz enerjiye ve komposta dönüştüren döngüsel bir lojistik platformu. İlk pilot, Ordu / Ünye'de fındık zürufu (yöresel adıyla gapçuk) ile planlanıyor; ikinci atık türleri sonraki aşamada eklenecek. **Siemens, YGA ve UP School Climathon 2026** programında geliştirildi.
 
 **Stack:** HTML · CSS · Vanilla JavaScript · Leaflet · OpenStreetMap · OSRM · Open-Meteo · React 18 · GitHub Pages
 
-**Canlı demo:** [blosny.github.io/climathon-gapcuk-ai](https://blosny.github.io/climathon-gapcuk-ai/) · **Simülasyon:** [Döngüyü başlat](https://blosny.github.io/climathon-gapcuk-ai/simulasyon.html)
+**Canlı demo:** [blosny.github.io/gleanly](https://blosny.github.io/gleanly/) · **Simülasyon:** [Döngüyü başlat](https://blosny.github.io/gleanly/simulasyon.html)
 
-<img src="src/assets/screenshots/tab1_route.png" alt="GapçukRoute: Ünye köylerinden Çarşamba'ya gerçek yol rotası ve toplama sırası" width="100%">
+<img src="src/assets/screenshots/tab1_route.png" alt="GleanlyRoute: Ünye köylerinden Çarşamba'ya gerçek yol rotası ve toplama sırası" width="100%">
 
 ---
 
@@ -21,9 +21,9 @@ Fındık zürufunu (yöresel adıyla **gapçuk**) yakılan bir atıktan temiz en
 
 | Modül | Ne yapar | Durum |
 |---|---|---|
-| GapçukRoute | Çiftçi bildirimlerinden durak sırası ve gerçek yol rotası çıkarır | Çalışıyor |
-| GapçukBot | WhatsApp üzerinden bildirim alır, hava durumuna göre yanıt verir | Kural tabanlı |
-| GapçukBio | Külleme riskini hesaplar, atığı santrale ya da komposta yönlendirir | Çalışıyor |
+| GleanlyRoute | Çiftçi bildirimlerinden durak sırası ve gerçek yol rotası çıkarır | Çalışıyor |
+| GleanlyBot | WhatsApp üzerinden bildirim alır, hava durumuna göre yanıt verir | Kural tabanlı |
+| GleanlyBio | Külleme riskini hesaplar, atığı santrale ya da komposta yönlendirir | Çalışıyor |
 | Döngü simülasyonu | Atığın harmandan santrale ve toprağa dönüşünü canlandırır | Çalışıyor |
 
 ## Problem
@@ -33,19 +33,19 @@ Fındık zürufunu (yöresel adıyla **gapçuk**) yakılan bir atıktan temiz en
 - Yılda yaklaşık 200 bin ile 500 bin ton züruf açığa çıktığı bildirilmektedir; iki kaynak arasında fark vardır [K2, K3].
 - Bölgedeki biyokütle enerji santrali zürufu satın alıyor, ancak satın alma sorumlusuna göre ürün sonbahara geç geldiği ve bölge yağışlı olduğu için istenen tonajı alamıyor [K13]. Eksik olan, küçük üreticiyle alıcıyı buluşturacak lojistik.
 
-## GapçukRoute: Rota Motoru
+## GleanlyRoute: Rota Motoru
 
 - Her bildirim haritada numaralı bir durak olur. Sıralama en yakın komşu yöntemiyle yapılır ve **yolu kapalı** köyler öne alınır (`optimizeStopSequence`).
 - Rota kuş uçuşu değil, **OSRM** `route/v1/driving` ile gerçek köy yolu geometrisi üzerinden çizilir.
 - OSRM yanıt vermezse sıralı noktalarla yedek bir rota çizilir.
 
-## GapçukBot: Çiftçi Asistanı
+## GleanlyBot: Çiftçi Asistanı
 
 - Çiftçi uygulama indirmeden konumunu, çuval sayısını ve yol durumunu tek mesajla bildirir.
 - Yanıt, **Open-Meteo**'dan gelen anlık sıcaklık ve nem verisine göre değişir: nem yüksekse atığı örtme ve yakmama uyarısı, yol kapalıysa öncelikli toplama bilgisi.
 - Şu an yanıtlar kural tabanlı; bir dil modeline taşınması yol haritasında.
 
-## GapçukBio: Erken Uyarı ve Kompost
+## GleanlyBio: Erken Uyarı ve Kompost
 
 - Sıcaklık ve nemden külleme (*Erysiphe corylacearum*) için sezgisel bir risk skoru hesaplanır (`calculateMildewRisk`). Eşikler yayımlanmış bir modele dayanmaz ve saha verisiyle kalibre edilmemiştir.
 - Nem sınırının altındaki atık **biyokütle santraline**, üstündeki atık **Trichoderma** ile kompostlama hattına gider.
@@ -66,13 +66,13 @@ Fındık zürufunu (yöresel adıyla **gapçuk**) yakılan bir atıktan temiz en
 
 Açıkta yakmanın önlenen emisyonu IPCC 2006 faktörleriyle hesaplanır: 0,80 × (2,7 g CH₄/kg × 28 + 0,07 g N₂O/kg × 265) ≈ **0,075 t CO₂e / ton atık** [K5, K6]. Biyokütle yanmasından çıkan CO₂ sayılmaz ve nem düzeltmesi yapılmaz; bu yüzden değer bir üst sınırdır. Santralde fosil yakıt ikamesi hesaba katılmamıştır.
 
-Uygulamadaki tüm sayıların dayanağı ve doğrulama durumu [Kaynakça ve Doğrulama](https://blosny.github.io/climathon-gapcuk-ai/kaynakca.html) sayfasındadır.
+Uygulamadaki tüm sayıların dayanağı ve doğrulama durumu [Kaynakça ve Doğrulama](https://blosny.github.io/gleanly/kaynakca.html) sayfasındadır.
 
 ## Ekran Görüntüleri
 
-<img src="src/assets/screenshots/tab2_whatsapp.png" alt="GapçukBot WhatsApp simülatörü" width="100%">
+<img src="src/assets/screenshots/tab2_whatsapp.png" alt="GleanlyBot WhatsApp simülatörü" width="100%">
 
-<img src="src/assets/screenshots/tab3_bio.png" alt="GapçukBio risk ve kompost paneli" width="100%">
+<img src="src/assets/screenshots/tab3_bio.png" alt="GleanlyBio risk ve kompost paneli" width="100%">
 
 ## Yol Haritası
 
@@ -84,8 +84,8 @@ Uygulamadaki tüm sayıların dayanağı ve doğrulama durumu [Kaynakça ve Doğ
 ## Yerel Çalıştırma
 
 ```bash
-git clone https://github.com/blosny/climathon-gapcuk-ai.git
-cd climathon-gapcuk-ai
+git clone https://github.com/blosny/gleanly.git
+cd gleanly
 python -m http.server 3000 --directory src
 ```
 

@@ -1,10 +1,10 @@
 /**
- * Gapçuk AI - Onboarding & Bilgi Merkezi Modalı (ES6 Modülü)
+ * Gleanly - Onboarding & Bilgi Merkezi Modalı (ES6 Modülü)
  * Girişte 3 temel soru (Gapçuk nedir, neden bahçeye dökülmez, neden yakılmaz)
  * Jüri ve detay inceleme için genişletilebilir 8 soruluk tam operasyon rehberi
  */
 
-const STORAGE_KEY = 'gapcuk_faq_dismissed';
+const STORAGE_KEY = 'gleanly_faq_dismissed';
 let isFaqExpanded = false;
 
 export function initModal() {

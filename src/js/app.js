@@ -1,5 +1,5 @@
 /**
- * Gapçuk AI - Ana Uygulama Kontrolörü (Master Orchestrator)
+ * Gleanly - Ana Uygulama Kontrolörü (Master Orchestrator)
  * Ekolojik Biyokütle Döngüselliği & Külleme Erken Uyarı Platformu
  * Siemens & UP School Climathon 2026
  */

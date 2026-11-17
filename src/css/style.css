@@ -1,5 +1,5 @@
 /* ============================================================
-   GAPÇUK AI - MASTER DESIGN SYSTEM & ARCHITECTURE ENTRYPOINT
+   GLEANLY - MASTER DESIGN SYSTEM & ARCHITECTURE ENTRYPOINT
    Fındık Zürufu Biyokütle Döngüselliği & Külleme Erken Uyarı Platformu
    Siemens & UP School Climathon 2026 | Global Sustainability Challenge
    ============================================================ */
@@ -25,7 +25,7 @@
 /* 7. WhatsApp Chat Simulator & Farmer Reporting Form */
 @import url('./chat.css');
 
-/* 8. Tab 3: GapçukBio, Trichoderma & Scientific References */
+/* 8. Tab 3: GleanlyBio, Trichoderma & Scientific References */
 @import url('./bio.css');
 
 /* 9. FAQ & Onboarding Knowledge Modal (6-Question Grounding) */

@@ -1,5 +1,5 @@
 /**
- * Gapçuk AI - WhatsApp Simülatörü & Çiftçi Bildirim Modülü (ES6 Modülü)
+ * Gleanly - WhatsApp Simülatörü & Çiftçi Bildirim Modülü (ES6 Modülü)
  * Çiftçi - Ziraat Odası - BES döngüsel iletişim akışı
  */
 
@@ -144,7 +144,7 @@ export function triggerWhatsAppMessage(farmer, village, sacks, isBlocked) {
 
     const botBubble = `
         <div class="chat-bubble bot-bubble">
-            <span class="chat-sender">Gapçuk AI Asistanı:</span>
+            <span class="chat-sender">Gleanly Asistanı:</span>
             <p>${botReplyHtml}</p>
             <span class="chat-time">${timeStr}</span>
         </div>
@@ -223,7 +223,7 @@ function handleQuickQuestion(type) {
 
     const aBubble = `
         <div class="chat-bubble bot-bubble">
-            <span class="chat-sender">Gapçuk AI Asistanı:</span>
+            <span class="chat-sender">Gleanly Asistanı:</span>
             <p>${answerText}</p>
             <span class="chat-time">${timeStr}</span>
         </div>

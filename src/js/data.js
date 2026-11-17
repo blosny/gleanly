@@ -1,5 +1,5 @@
 /**
- * Gapçuk AI - Veri ve Konfigürasyon Katmanı
+ * Gleanly - Veri ve Konfigürasyon Katmanı
  * Ordu / Ünye pilot bölgesi başlangıç verileri ve ekonomik parametreler
  */
 

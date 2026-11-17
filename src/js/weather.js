@@ -1,5 +1,5 @@
 /**
- * Gapçuk AI - Canlı Hava Durumu & Külleme Risk Motoru
+ * Gleanly - Canlı Hava Durumu & Külleme Risk Motoru
  * Open-Meteo API (Açık ve Ücretsiz) Entegrasyonu
  */
 

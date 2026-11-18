@@ -1,6 +1,6 @@
-# Gleanly marka dosyaları
+# Gleanly logo ve marka dosyaları (`icon/`)
 
-Logonun kaynağı `source/gleanly-logo-acik-zemin.png` (2400×897, açık zeminli). Aşağıdaki dosyalar bu görselden renk ayrıştırmayla üretilmiştir; vektör (SVG) sürümü yoktur. `LOGO/gleanly-primary.svg` farklı bir tasarım (oklu halka) olduğu için kullanılmaz.
+Tüm logo dosyaları bu klasörde. Kaynak görsel `source/gleanly-logo-acik-zemin.png` (2400×897, açık zeminli). Aşağıdaki dosyalar bu görselden renk ayrıştırmayla üretildi; vektör (SVG) sürümü yok. `source/gleanly-primary-oklu-halka.svg` farklı bir tasarım (oklu halka) olduğu için kullanılmaz, yalnızca saklanıyor.
 
 | Dosya | Kullanım |
 |---|---|

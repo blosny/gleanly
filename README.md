@@ -1,7 +1,7 @@
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="brand/gleanly-logo-dark.png">
-    <img src="brand/gleanly-logo.png" alt="Gleanly: Circular Resource Intelligence" width="420">
+    <source media="(prefers-color-scheme: dark)" srcset="icon/gleanly-logo-dark.png">
+    <img src="icon/gleanly-logo.png" alt="Gleanly: Circular Resource Intelligence" width="420">
   </picture>
 </p>
 

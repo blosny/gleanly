@@ -16,7 +16,7 @@ Son güncelleme: 18 Kasım 2026. Önemli tarihler: GSC Phase 1 teslimi 22 Kasım
 
 - [x] Arayüz, kod, README, simülasyon ve kaynakça yeni adla; yeni logo ve favicon
 - [x] Depo adı `gleanly`, Pages adresi `blosny.github.io/gleanly` (eski adres kapandı)
-- [x] Site yeni logo paletine geçti: ana yeşil `#1E9E5A`, koyu yeşil `#167A45`, toprak `#C9935E`, yazı `#0F2E24`, zemin `#F9FAF9` (bkz. `brand/README.md`). Simülasyon sayfası koyu sahne olarak kaldı
+- [x] Site yeni logo paletine geçti: ana yeşil `#1E9E5A`, koyu yeşil `#167A45`, toprak `#C9935E`, yazı `#0F2E24`, zemin `#F9FAF9` (bkz. `icon/README.md`). Simülasyon sayfası koyu sahne olarak kaldı
 - [ ] TÜRKPATENT ve WIPO marka araması ("Glean" adlı büyük bir yazılım firması var, benzerlik riski)
 - [ ] gleanly.ai / .io / .co alan adlarını ve sosyal medya hesaplarını ayır (.com alınmış)
 - [x] README'den eski Vercel yedek adresi kaldırıldı; Vercel panelinde proje yeniden adlandırılacak ya da silinecek

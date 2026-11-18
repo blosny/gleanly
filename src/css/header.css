@@ -7,8 +7,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: rgba(251, 250, 246, 0.75);
-    border: 1px solid rgba(16, 35, 26, 0.08);
+    background: rgba(252, 253, 252, 0.75);
+    border: 1px solid rgba(15, 46, 36, 0.08);
     padding: 6px 18px;
     border-radius: var(--radius-full);
     font-size: 0.76rem;
@@ -23,7 +23,7 @@
     display: inline-flex;
     align-items: center;
     gap: 8px;
-    color: #047857;
+    color: #167A45;
     font-weight: 700;
     letter-spacing: 0.3px;
 }
@@ -32,8 +32,8 @@
     width: 8px;
     height: 8px;
     border-radius: 50%;
-    background: #10B981;
-    box-shadow: 0 0 10px #10B981;
+    background: #1E9E5A;
+    box-shadow: 0 0 10px #1E9E5A;
     animation: pulseDot 2s infinite;
 }
 
@@ -51,7 +51,7 @@
 }
 
 .status-partners .sep {
-    color: rgba(16, 35, 26, 0.2);
+    color: rgba(15, 46, 36, 0.2);
 }
 
 .app-header {
@@ -135,9 +135,9 @@
 }
 
 .badge-cop {
-    background: rgba(16, 185, 129, 0.14);
-    color: #047857;
-    border: 1px solid rgba(16, 185, 129, 0.35);
+    background: rgba(30, 158, 90, 0.14);
+    color: #167A45;
+    border: 1px solid rgba(30, 158, 90, 0.35);
 }
 
 .badge-siemens {
@@ -147,9 +147,9 @@
 }
 
 .badge-unye {
-    background: rgba(245, 158, 11, 0.14);
-    color: #B45309;
-    border: 1px solid rgba(245, 158, 11, 0.35);
+    background: rgba(201, 147, 94, 0.14);
+    color: #96622B;
+    border: 1px solid rgba(201, 147, 94, 0.35);
 }
 
 .header-right-controls {
@@ -163,10 +163,10 @@
 /* Role Switcher */
 .role-switcher-container {
     display: flex;
-    background: rgba(251, 250, 246, 0.7);
+    background: rgba(252, 253, 252, 0.7);
     padding: 3px;
     border-radius: var(--radius-full);
-    border: 1px solid rgba(16, 35, 26, 0.1);
+    border: 1px solid rgba(15, 46, 36, 0.1);
     gap: 4px;
 }
 
@@ -187,22 +187,22 @@
 }
 
 .role-btn:hover {
-    color: #10231A;
+    color: #0F2E24;
 }
 
 .role-btn.active {
     background: var(--primary);
     color: #FFFFFF;
-    box-shadow: 0 2px 8px rgba(16, 185, 129, 0.4);
+    box-shadow: 0 2px 8px rgba(30, 158, 90, 0.4);
 }
 
 /* Language Toggle Switcher (TR / EN) */
 .lang-toggle-container {
     display: inline-flex;
-    background: rgba(251, 250, 246, 0.7);
+    background: rgba(252, 253, 252, 0.7);
     padding: 3px;
     border-radius: var(--radius-full);
-    border: 1px solid rgba(16, 35, 26, 0.1);
+    border: 1px solid rgba(15, 46, 36, 0.1);
     gap: 2px;
 }
 
@@ -220,14 +220,14 @@
 }
 
 .lang-btn:hover {
-    color: #10231A;
+    color: #0F2E24;
 }
 
 .lang-btn.active {
-    background: rgba(16, 185, 129, 0.25);
-    color: #047857;
-    border: 1px solid rgba(16, 185, 129, 0.4);
-    box-shadow: 0 1px 4px rgba(16, 185, 129, 0.2);
+    background: rgba(30, 158, 90, 0.25);
+    color: #167A45;
+    border: 1px solid rgba(30, 158, 90, 0.4);
+    box-shadow: 0 1px 4px rgba(30, 158, 90, 0.2);
 }
 
 /* Weather Chip (Header) */
@@ -235,7 +235,7 @@
     display: flex;
     align-items: center;
     gap: 8px;
-    background: rgba(251, 250, 246, 0.85);
+    background: rgba(252, 253, 252, 0.85);
     padding: 6px 12px;
     border-radius: var(--radius-full);
     border: 1px solid var(--bg-card-border);
@@ -243,12 +243,12 @@
     font-weight: 600;
 }
 
-.weather-temp { color: #B45309; display: inline-flex; align-items: center; gap: 4px; }
+.weather-temp { color: #96622B; display: inline-flex; align-items: center; gap: 4px; }
 .weather-hum { color: #1D4ED8; display: inline-flex; align-items: center; gap: 4px; }
 .weather-sep { color: var(--text-muted); }
 .weather-live-tag {
     background: rgba(56, 161, 105, 0.2);
-    color: #166534;
+    color: #167A45;
     font-size: 0.68rem;
     padding: 2px 7px;
     border-radius: var(--radius-full);

@@ -59,8 +59,8 @@ export function setFaqExpanded(expanded) {
 
     if (modalSubtitle) {
         modalSubtitle.innerText = isFaqExpanded
-            ? 'Jüri ve Değerlendiriciler İçin 8 Soruda Bölgesel Biyokütle Döngüselliği'
-            : 'Jüri ve Değerlendiriciler İçin 3 Temel Saha Gerçeği (Giriş Rehberi)';
+            ? 'İlk pilot: fındık zürufu. Jüri ve değerlendiriciler için 8 soruda bölgesel biyokütle döngüselliği'
+            : 'İlk pilot: fındık zürufu. Jüri ve değerlendiriciler için 3 temel saha gerçeği';
     }
 }
 

@@ -25,15 +25,15 @@
 }
 
 .risk-level-badge.moderate {
-    color: #B45309;
+    color: #96622B;
 }
 
 .risk-level-badge.low {
-    color: #047857;
+    color: #167A45;
 }
 
 .risk-recommendation-box {
-    background: rgba(16, 35, 26, 0.03);
+    background: rgba(15, 46, 36, 0.03);
     padding: 12px 14px;
     border-radius: var(--radius-sm);
     font-size: 0.8rem;
@@ -44,16 +44,16 @@
 }
 
 .bio-card-highlight {
-    background: rgba(251, 250, 246, 0.6);
-    border: 1px solid rgba(16, 35, 26, 0.08);
-    border-left: 3px solid #059669;
+    background: rgba(252, 253, 252, 0.6);
+    border: 1px solid rgba(15, 46, 36, 0.08);
+    border-left: 3px solid #167A45;
     padding: 14px 16px;
     border-radius: var(--radius-md);
     margin-bottom: 14px;
 }
 
 .bio-card-highlight h4 {
-    color: #047857;
+    color: #167A45;
     font-size: 0.9rem;
     margin-bottom: 6px;
     display: flex;
@@ -62,15 +62,15 @@
 }
 
 .bio-card-amber {
-    background: rgba(251, 250, 246, 0.6);
-    border: 1px solid rgba(16, 35, 26, 0.08);
-    border-left: 3px solid #D97706;
+    background: rgba(252, 253, 252, 0.6);
+    border: 1px solid rgba(15, 46, 36, 0.08);
+    border-left: 3px solid #C9935E;
     padding: 14px 16px;
     border-radius: var(--radius-md);
 }
 
 .bio-card-amber h4 {
-    color: #B45309;
+    color: #96622B;
     font-size: 0.9rem;
     margin-bottom: 6px;
     display: flex;
@@ -95,7 +95,7 @@
 }
 
 .references-header h4 {
-    color: #10231A;
+    color: #0F2E24;
     font-family: var(--font-heading);
     font-size: 1.05rem;
     display: flex;
@@ -116,8 +116,8 @@
 }
 
 .ref-item {
-    background: rgba(16, 35, 26, 0.03);
-    border: 1px solid rgba(16, 35, 26, 0.06);
+    background: rgba(15, 46, 36, 0.03);
+    border: 1px solid rgba(15, 46, 36, 0.06);
     border-left: 3px solid var(--primary);
     border-radius: var(--radius-sm);
     padding: 12px 14px;
@@ -129,13 +129,13 @@
 .ref-item:hover {
     transform: translateY(-2px);
     border-left-color: var(--accent-amber);
-    background: rgba(16, 35, 26, 0.05);
+    background: rgba(15, 46, 36, 0.05);
 }
 
 .ref-org {
     font-size: 0.72rem;
     font-weight: 700;
-    color: #047857;
+    color: #167A45;
     text-transform: uppercase;
     letter-spacing: 0.4px;
     margin-bottom: 4px;
@@ -165,20 +165,20 @@
     gap: 6px;
     margin-top: 10px;
     font-size: 0.72rem;
-    color: #047857;
+    color: #167A45;
     text-decoration: none;
     font-weight: 600;
     padding: 4px 10px;
     border-radius: var(--radius-sm);
-    background: rgba(16, 185, 129, 0.12);
-    border: 1px solid rgba(16, 185, 129, 0.25);
+    background: rgba(30, 158, 90, 0.12);
+    border: 1px solid rgba(30, 158, 90, 0.25);
     transition: all 0.2s ease;
     align-self: flex-start;
 }
 
 .ref-link:hover {
     color: #061A14;
-    background: #10B981;
-    border-color: #10B981;
+    background: #1E9E5A;
+    border-color: #1E9E5A;
     transform: translateX(3px);
 }

@@ -20,8 +20,6 @@
 
 **Canlı demo:** [blosny.github.io/gleanly](https://blosny.github.io/gleanly/) · **Simülasyon:** [Döngüyü başlat](https://blosny.github.io/gleanly/simulasyon.html)
 
-<img src="src/assets/screenshots/tab1_route.png" alt="GleanlyRoute: Ünye köylerinden Çarşamba'ya gerçek yol rotası ve toplama sırası" width="100%">
-
 ---
 
 ## Modüller
@@ -76,12 +74,6 @@ Aşağıdaki veriler yalnızca ilk pilot olan fındık zürufu içindir. Aynı t
 Açıkta yakmanın önlenen emisyonu IPCC 2006 faktörleriyle hesaplanır: 0,80 × (2,7 g CH₄/kg × 28 + 0,07 g N₂O/kg × 265) ≈ **0,075 t CO₂e / ton atık** [K5, K6]. Biyokütle yanmasından çıkan CO₂ sayılmaz ve nem düzeltmesi yapılmaz; bu yüzden değer bir üst sınırdır. Santralde fosil yakıt ikamesi hesaba katılmamıştır.
 
 Uygulamadaki tüm sayıların dayanağı ve doğrulama durumu [Kaynakça ve Doğrulama](https://blosny.github.io/gleanly/kaynakca.html) sayfasındadır.
-
-## Ekran Görüntüleri
-
-<img src="src/assets/screenshots/tab2_whatsapp.png" alt="GleanlyBot WhatsApp simülatörü" width="100%">
-
-<img src="src/assets/screenshots/tab3_bio.png" alt="GleanlyBio risk ve kompost paneli" width="100%">
 
 ## Yol Haritası
 

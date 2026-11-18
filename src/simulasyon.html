@@ -3,7 +3,7 @@
 <link rel="icon" type="image/png" href="assets/favicon.png">
     <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
 <meta name="claude:viewport-fit-sides" content="cover">
-<style>html,body{background:#071215;color:#F4F1E8;margin:0;color-scheme:dark}</style>
+<style>html,body{background:#071215;color:#F1F4F2;margin:0;color-scheme:dark}</style>
 <div id="root"></div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/react/18.3.1/umd/react.production.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/18.3.1/umd/react-dom.production.min.js"></script>
@@ -108,8 +108,8 @@ const COMPOST =
 const POWER = "M872 372 Q 904 384 936 362 Q 962 376 986 362 L 1000 366";
 const SPOUT = "M168 294 Q 186 296 204 314";
 
-const AMBER = "#F59E0B";
-const MINT = "#34D399";
+const AMBER = "#C9935E";
+const MINT = "#4FC984";
 const SKY = "#38BDF8";
 
 const ease = (x) => (x < 0.5 ? 2 * x * x : 1 - Math.pow(-2 * x + 2, 2) / 2);
@@ -349,8 +349,8 @@ function GleanlyDongu() {
                 <stop offset="1" stopColor={MINT} stopOpacity="0" />
               </radialGradient>
               <radialGradient id="gx-beam" cx="0" cy=".5" r="1">
-                <stop offset="0" stopColor="#FDE68A" stopOpacity=".55" />
-                <stop offset="1" stopColor="#FDE68A" stopOpacity="0" />
+                <stop offset="0" stopColor="#EBD3B8" stopOpacity=".55" />
+                <stop offset="1" stopColor="#EBD3B8" stopOpacity="0" />
               </radialGradient>
               <filter id="gx-glowf" x="-200%" y="-200%" width="500%" height="500%">
                 <feGaussianBlur stdDeviation="2.2" result="b" />
@@ -436,10 +436,10 @@ function GleanlyDongu() {
             {/* Gapçuk yığını */}
             <g transform={`translate(214 320) scale(${Math.max(heap, 0.001)})`}>
               <ellipse cx="0" cy="-6" rx="30" ry="14" fill={AMBER} opacity=".12" />
-              <path d="M-22 0 C -18 -10 -8 -18 0 -18 C 8 -18 18 -10 22 0Z" fill="#b45309" />
+              <path d="M-22 0 C -18 -10 -8 -18 0 -18 C 8 -18 18 -10 22 0Z" fill="#96622B" />
               <path d="M-14 0 C -10 -8 -4 -12 2 -12 C 8 -12 12 -6 14 0Z" fill={AMBER} opacity=".9" />
               {[[-10, -5], [-3, -9], [5, -6], [11, -3], [-15, -2], [0, -14]].map(([x, y], i) => (
-                <circle key={i} cx={x} cy={y} r="1.2" fill="#fde68a" opacity=".75" />
+                <circle key={i} cx={x} cy={y} r="1.2" fill="#EBD3B8" opacity=".75" />
               ))}
             </g>
             <Chip x={258} y={232} text="C/N ≈ 33:1 · YOL KAPALI" tone={AMBER} show={step === 0} />
@@ -511,8 +511,8 @@ function GleanlyDongu() {
             {/* Aşama işaretleri */}
             {[[134, 244], [430, 410], [840, 340], [110, 400]].map(([x, y], i) => (
               <g key={i} transform={`translate(${x} ${y})`} className="gx-node" onClick={() => goTo(i)}>
-                {i === step && <circle r="16" fill="#F4F1E8" opacity=".12" className="gx-halo" />}
-                <circle r="11" fill={i === step ? "#F4F1E8" : "#0B171B"} stroke="#F4F1E8" strokeOpacity={i === step ? 1 : 0.35} />
+                {i === step && <circle r="16" fill="#F1F4F2" opacity=".12" className="gx-halo" />}
+                <circle r="11" fill={i === step ? "#F1F4F2" : "#0B171B"} stroke="#F1F4F2" strokeOpacity={i === step ? 1 : 0.35} />
                 <text y="4" textAnchor="middle" className="gx-nodenum" fill={i === step ? "#071215" : "#e7ece9"}>
                   {i + 1}
                 </text>
@@ -626,10 +626,10 @@ function EvTruck({ load }) {
       <rect x="-28.5" y={-6.5 - 13 * load} width="31" height={13 * load} rx="1.5" fill={AMBER} filter="url(#gx-glowf)" opacity=".95" />
       <path d="M-19 -17 L -22 -12 H -19 L -21 -8 L -15 -14 H -18 L -16 -17Z" fill={load > 0.4 ? "#071215" : MINT} />
       {/* kabin */}
-      <path d="M6 -5 V -18 Q 6 -21 9 -21 H 16 Q 19 -21 21 -17 L 24.5 -11 Q 25.5 -9 25.5 -7 V -5 Z" fill="#F4F1E8" />
+      <path d="M6 -5 V -18 Q 6 -21 9 -21 H 16 Q 19 -21 21 -17 L 24.5 -11 Q 25.5 -9 25.5 -7 V -5 Z" fill="#F1F4F2" />
       <path d="M15 -19 H 17 Q 18.5 -19 19.5 -17 L 22.5 -11.5 H 15 Z" fill="url(#gx-glass-tr)" />
       <rect x="8" y="-19" width="5" height="7" rx="1" fill="url(#gx-glass-tr)" opacity=".8" />
-      <circle cx="24.6" cy="-8.4" r="1.2" fill="#FDE68A" />
+      <circle cx="24.6" cy="-8.4" r="1.2" fill="#EBD3B8" />
       {/* şasi ve LED şerit */}
       <rect x="-31" y="-5.5" width="57" height="3" rx="1.5" fill="#1d2e31" />
       <rect x="-30" y="-5.5" width="34" height="1.2" fill={MINT} filter="url(#gx-glowf)" />
@@ -752,11 +752,11 @@ const CSS = `
   --glass-hi: rgba(26, 52, 56, 0.55);
   --stroke: rgba(255, 255, 255, 0.08);
   --stroke-hi: rgba(255, 255, 255, 0.16);
-  --fg: #F4F1E8;
+  --fg: #F1F4F2;
   --muted: #8FA6A6;
-  --amber: #F59E0B;
-  --amber-hi: #FCD34D;
-  --mint: #34D399;
+  --amber: #C9935E;
+  --amber-hi: #E3BC93;
+  --mint: #4FC984;
   --mint-hi: #A7F3D0;
   --sky: #38BDF8;
   --sky-hi: #BAE6FD;
@@ -766,8 +766,8 @@ const CSS = `
   position: relative;
   isolation: isolate;
   background:
-    radial-gradient(900px 420px at 12% -6%, rgba(52, 211, 153, 0.10), transparent 70%),
-    radial-gradient(700px 380px at 92% 8%, rgba(245, 158, 11, 0.07), transparent 70%),
+    radial-gradient(900px 420px at 12% -6%, rgba(79, 201, 132, 0.10), transparent 70%),
+    radial-gradient(700px 380px at 92% 8%, rgba(201, 147, 94, 0.07), transparent 70%),
     radial-gradient(800px 500px at 50% 110%, rgba(56, 189, 248, 0.06), transparent 70%),
     var(--bg);
   color: var(--fg);
@@ -847,7 +847,7 @@ const CSS = `
 .gx-nodenum { font-family: var(--mono); font-size: 11px; font-weight: 500; }
 .gx-node { cursor: pointer; }
 .gx-node circle { transition: fill .3s; }
-.gx-chiptext { font-family: var(--mono); font-size: 10px; fill: #F4F1E8; }
+.gx-chiptext { font-family: var(--mono); font-size: 10px; fill: #F1F4F2; }
 .gx-chip { opacity: 0; transition: opacity .5s ease-out; pointer-events: none; }
 .gx-chip.show { opacity: 1; }
 .gx-stepbtn, .gx-stepicon { transition: border-color .4s ease-out, background .4s ease-out, box-shadow .4s ease-out; }
@@ -868,7 +868,7 @@ const CSS = `
 @keyframes gx-fog { from { transform: translateX(-30px); } to { transform: translateX(30px); } }
 .gx-halo { transform-box: fill-box; transform-origin: center; animation: gx-halo 1.8s ease-out infinite; }
 @keyframes gx-halo { from { transform: scale(.8); opacity: .35; } to { transform: scale(1.6); opacity: 0; } }
-@keyframes gx-ping { 0% { box-shadow: 0 0 0 0 rgba(52, 211, 153, .6); } 70%, 100% { box-shadow: 0 0 0 7px rgba(52, 211, 153, 0); } }
+@keyframes gx-ping { 0% { box-shadow: 0 0 0 0 rgba(79, 201, 132, .6); } 70%, 100% { box-shadow: 0 0 0 7px rgba(79, 201, 132, 0); } }
 .gx-paused *, .gx-paused *::before, .gx-paused *::after { animation-play-state: paused !important; }
 
 /* Bilgi paneli */
@@ -884,8 +884,8 @@ const CSS = `
 .gx-hero strong { font-weight: 800; font-size: clamp(48px, 5.4vw, 64px); line-height: .95; letter-spacing: -.045em; font-variant-numeric: tabular-nums; background: linear-gradient(180deg, var(--hi), var(--c)); -webkit-background-clip: text; background-clip: text; color: transparent; filter: drop-shadow(0 0 22px var(--glow)); }
 .gx-hero-unit { font-size: 15px; font-weight: 600; color: var(--fg); }
 .gx-hero-label { flex-basis: 100%; font-size: 12.5px; color: var(--muted); }
-.gx-card.tone-amber { --c: var(--amber); --hi: var(--amber-hi); --glow: rgba(245, 158, 11, .35); }
-.gx-card.tone-mint { --c: var(--mint); --hi: var(--mint-hi); --glow: rgba(52, 211, 153, .35); }
+.gx-card.tone-amber { --c: var(--amber); --hi: var(--amber-hi); --glow: rgba(201, 147, 94, .35); }
+.gx-card.tone-mint { --c: var(--mint); --hi: var(--mint-hi); --glow: rgba(79, 201, 132, .35); }
 .gx-stats { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
 .gx-stat { padding: 14px 16px; border-radius: 14px; background: rgba(255, 255, 255, .03); border: 1px solid var(--stroke); display: flex; flex-direction: column; gap: 6px; min-width: 0; }
 .gx-stat strong { font-weight: 700; font-size: 20px; line-height: 1.2; letter-spacing: -.02em; color: var(--fg); font-variant-numeric: tabular-nums; white-space: nowrap; }
@@ -893,11 +893,11 @@ const CSS = `
 .gx-pills { margin: 0; padding: 4px 0 0; list-style: none; display: flex; flex-wrap: wrap; gap: 10px; }
 .gx-pill { display: inline-flex; align-items: center; gap: 8px; padding: 8px 14px 8px 12px; border-radius: 999px; font-size: 12.5px; line-height: 1.45; color: var(--fg); background: rgba(255, 255, 255, .04); border: 1px solid var(--stroke); }
 .gx-pill svg { flex: none; }
-.pill-risk { border-color: rgba(245, 158, 11, .35); background: rgba(245, 158, 11, .08); }
+.pill-risk { border-color: rgba(201, 147, 94, .35); background: rgba(201, 147, 94, .08); }
 .pill-risk svg { color: var(--amber); }
 .pill-spec { border-color: rgba(56, 189, 248, .3); background: rgba(56, 189, 248, .07); }
 .pill-spec svg { color: var(--sky); }
-.pill-bio { border-color: rgba(52, 211, 153, .35); background: rgba(52, 211, 153, .08); }
+.pill-bio { border-color: rgba(79, 201, 132, .35); background: rgba(79, 201, 132, .08); }
 .pill-bio svg { color: var(--mint); }
 
 /* Zaman çizelgesi */

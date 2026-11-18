@@ -153,11 +153,11 @@ export async function renderReports(reports) {
     const besIcon = L.divIcon({
         className: 'custom-bes-marker',
         html: `
-            <div class="marker-hq-badge" style="background:#FCFDFC; border-color:#F59E0B; box-shadow:0 0 16px rgba(245,158,11,0.45);">
-                <span class="hq-icon" style="background:#F59E0B; color:#0F172A;">
+            <div class="marker-hq-badge" style="background:#FCFDFC; border-color:#C9935E; box-shadow:0 0 16px rgba(201, 147, 94, 0.45);">
+                <span class="hq-icon" style="background:#C9935E; color:#0F172A;">
                     <svg class="icon-svg sm" viewBox="0 0 24 24"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg>
                 </span>
-                <span class="hq-title" style="color:#B45309;">Oltan & Köleoğlu BES (27 MWe)</span>
+                <span class="hq-title" style="color:#96622B;">Oltan & Köleoğlu BES (27 MWe)</span>
             </div>
         `,
         iconSize: [250, 48],
@@ -168,7 +168,7 @@ export async function renderReports(reports) {
         .bindPopup(`
             <div class="map-popup-card">
                 <div class="popup-header">
-                    <span class="stop-badge" style="background:rgba(245,158,11,0.2); color:#B45309; border-color:#F59E0B;">Hedef Santral Kantarı</span>
+                    <span class="stop-badge" style="background:rgba(201, 147, 94, 0.2); color:#96622B; border-color:#C9935E;">Hedef Santral Kantarı</span>
                     <h4>${plant.name}</h4>
                 </div>
                 <p><b>Konum:</b> ${plant.location}</p>
@@ -263,7 +263,7 @@ async function drawRealRoadRoute(orderedStops, stopMarkers = []) {
 
                 // Ana Yol Çizgisi (Asfalt takip eden zümrüt biyo-yeşil rotalama)
                 routePolyline = L.polyline(latLngs, {
-                    color: '#10B981',
+                    color: '#1E9E5A',
                     weight: 5,
                     opacity: 0.95,
                     dashArray: '1, 10',
@@ -320,7 +320,7 @@ async function drawRealRoadRoute(orderedStops, stopMarkers = []) {
         CONFIG.buyerFacility.coords
     ];
     routePolyline = L.polyline(fallbackPoints, {
-        color: '#10B981',
+        color: '#1E9E5A',
         weight: 4,
         opacity: 0.85,
         dashArray: '8, 8'

@@ -18,7 +18,7 @@ body {
     min-height: 100vh;
     background-image: 
         radial-gradient(at 10% 10%, rgba(132, 204, 22, 0.10) 0px, transparent 45%),
-        radial-gradient(at 90% 10%, rgba(217, 119, 6, 0.06) 0px, transparent 45%),
+        radial-gradient(at 90% 10%, rgba(201, 147, 94, 0.06) 0px, transparent 45%),
         radial-gradient(at 50% 90%, rgba(20, 83, 45, 0.06) 0px, transparent 55%);
     background-attachment: fixed;
     overflow-x: hidden;
@@ -82,7 +82,7 @@ body {
     position: fixed;
     bottom: 24px;
     right: 24px;
-    background: #064E3B;
+    background: #0F2E24;
     color: #FFFFFF;
     padding: 14px 22px;
     border-radius: var(--radius-md);
@@ -93,7 +93,7 @@ body {
     transform: translateY(20px);
     transition: all 0.3s ease;
     z-index: 9999;
-    border: 1px solid rgba(16, 185, 129, 0.4);
+    border: 1px solid rgba(30, 158, 90, 0.4);
     pointer-events: none;
 }
 

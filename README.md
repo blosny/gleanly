@@ -7,7 +7,6 @@
 
 <p align="center">
   <img alt="Climathon 2026" src="https://img.shields.io/badge/Climathon%202026-Siemens%20%C2%B7%20YGA%20%C2%B7%20UP%20School-0F2E24">
-  <img alt="Sonuç" src="https://img.shields.io/badge/Sonu%C3%A7-5.%20s%C4%B1ra-C9935E">
   <img alt="İlk pilot" src="https://img.shields.io/badge/%C4%B0lk%20pilot-Ordu%20%2F%20%C3%9Cnye-167A45">
   <a href="https://blosny.github.io/gleanly/"><img alt="Demo" src="https://img.shields.io/badge/Demo-GitHub%20Pages-1E9E5A"></a>
 </p>

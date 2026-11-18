@@ -153,7 +153,7 @@ export async function renderReports(reports) {
     const besIcon = L.divIcon({
         className: 'custom-bes-marker',
         html: `
-            <div class="marker-hq-badge" style="background:#FBFAF6; border-color:#F59E0B; box-shadow:0 0 16px rgba(245,158,11,0.45);">
+            <div class="marker-hq-badge" style="background:#FCFDFC; border-color:#F59E0B; box-shadow:0 0 16px rgba(245,158,11,0.45);">
                 <span class="hq-icon" style="background:#F59E0B; color:#0F172A;">
                     <svg class="icon-svg sm" viewBox="0 0 24 24"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg>
                 </span>

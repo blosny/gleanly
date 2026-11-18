@@ -1,6 +1,7 @@
 <!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
 <title>Gleanly Döngüsü</title>
-<link rel="icon" type="image/png" href="assets/logo.png">
+<link rel="icon" type="image/png" href="assets/favicon.png">
+    <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
 <meta name="claude:viewport-fit-sides" content="cover">
 <style>html,body{background:#071215;color:#F4F1E8;margin:0;color-scheme:dark}</style>
 <div id="root"></div>
@@ -268,6 +269,7 @@ function GleanlyDongu() {
 
       <header className="gx-head">
         <div className="gx-brand">
+          <img className="gx-logo" src="assets/logo-dark.png" alt="Gleanly: Circular Resource Intelligence" />
           <p className="gx-eyebrow">
             <span className="gx-dot" /> Gleanly · Climathon 2026 · Siemens × UP School
           </p>
@@ -799,6 +801,7 @@ const CSS = `
 .gx-head { display: flex; flex-wrap: wrap; align-items: flex-end; justify-content: space-between; gap: 16px 24px; }
 .gx-brand { min-width: 0; max-width: 60ch; display: flex; flex-direction: column; gap: 10px; }
 .gx-eyebrow { margin: 0; display: inline-flex; align-items: center; gap: 8px; font-family: var(--mono); font-size: 11px; letter-spacing: .1em; text-transform: uppercase; color: var(--muted); }
+.gx-logo { display: block; align-self: flex-start; height: 46px; width: auto; max-width: 100%; object-fit: contain; margin: 0 0 4px; }
 .gx-dot { width: 6px; height: 6px; border-radius: 50%; background: var(--mint); box-shadow: 0 0 10px var(--mint); }
 .gx-title { margin: 0; font-weight: 700; font-size: clamp(28px, 3.6vw, 44px); line-height: 1.08; letter-spacing: -0.035em; text-wrap: balance; }
 .gx-title span { background: linear-gradient(100deg, var(--amber-hi), var(--amber) 45%, var(--mint) 110%); -webkit-background-clip: text; background-clip: text; color: transparent; }

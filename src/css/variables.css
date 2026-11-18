@@ -4,14 +4,14 @@
    ============================================================ */
 
 :root {
-    /* Gleanly palette: forest green, lime road, warm off-white */
-    --primary: #14532D;
-    --primary-light: rgba(20, 83, 45, 0.08);
-    --primary-border: rgba(20, 83, 45, 0.22);
-    --primary-glow: rgba(20, 83, 45, 0.14);
-    --primary-gradient: linear-gradient(135deg, #166534 0%, #14532D 100%);
-    --primary-gradient-hover: linear-gradient(135deg, #15803D 0%, #166534 100%);
-    --accent-lime: #84CC16;
+    /* Gleanly palette (brand/README.md): green ring #1E9E5A, deep green #167A45, soil #C9935E, ink #0F2E24, off-white #F9FAF9 */
+    --primary: #167A45;
+    --primary-light: rgba(22, 122, 69, 0.08);
+    --primary-border: rgba(22, 122, 69, 0.24);
+    --primary-glow: rgba(22, 122, 69, 0.16);
+    --primary-gradient: linear-gradient(135deg, #1E9E5A 0%, #167A45 100%);
+    --primary-gradient-hover: linear-gradient(135deg, #1A8A4E 0%, #0F6B3B 100%);
+    --accent-lime: #1E9E5A;
 
     /* Amber / harvest accent */
     --accent-amber: #D97706;
@@ -26,14 +26,14 @@
     --success: #15803D;
 
     /* Backgrounds & surfaces (off-white, never pure white) */
-    --bg-dark: #F7F5EF;
-    --bg-surface: #FBFAF6;
-    --bg-card: rgba(251, 250, 246, 0.92);
+    --bg-dark: #F9FAF9;
+    --bg-surface: #FCFDFC;
+    --bg-card: rgba(252, 253, 252, 0.92);
     --bg-card-border: rgba(16, 35, 26, 0.10);
-    --bg-glass: rgba(251, 250, 246, 0.94);
+    --bg-glass: rgba(252, 253, 252, 0.94);
 
     /* Typography */
-    --text-primary: #10231A;
+    --text-primary: #0F2E24;
     --text-secondary: #3D5247;
     --text-muted: #6B7A73;
     --font-heading: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;

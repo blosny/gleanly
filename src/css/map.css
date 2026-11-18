@@ -101,7 +101,7 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 10px;
-    background: #FBFAF6;
+    background: #FCFDFC;
     padding: 10px 16px;
     border: 1px solid var(--bg-card-border);
     border-top: none;
@@ -302,7 +302,7 @@
     width: 38px;
     height: 38px;
     border-radius: 50%;
-    background: #FBFAF6;
+    background: #FCFDFC;
     border: 2px solid var(--primary);
     color: #10231A;
     display: flex;

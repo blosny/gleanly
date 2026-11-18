@@ -51,7 +51,7 @@
 }
 
 .modal-dialog {
-    background: #FBFAF6;
+    background: #FCFDFC;
     border: 1px solid rgba(16, 185, 129, 0.25);
     border-radius: var(--radius-lg);
     max-width: 1080px;
@@ -135,7 +135,7 @@
 }
 
 .faq-card {
-    background: #FBFAF6;
+    background: #FCFDFC;
     border: 1px solid rgba(16, 35, 26, 0.08);
     border-radius: var(--radius-md);
     overflow: hidden;

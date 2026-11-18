@@ -89,7 +89,7 @@ cd gleanly
 python -m http.server 3000 --directory src
 ```
 
-Ana platform `http://localhost:3000`, simülasyon `http://localhost:3000/simulasyon.html` adresinde açılır. Yedek yayın: [climathon-gapcuk-ai.vercel.app](https://climathon-gapcuk-ai.vercel.app) (vercel.app bazı Türkiye internet sağlayıcılarında açılmıyor).
+Ana platform `http://localhost:3000`, simülasyon `http://localhost:3000/simulasyon.html` adresinde açılır.
 
 ## Kaynaklar
 

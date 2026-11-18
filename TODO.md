@@ -1,26 +1,27 @@
 # TODO
 
-Son güncelleme: 17 Kasım 2026. Önemli tarihler: GSC Phase 1 teslimi 22 Kasım 23:59 UTC, İstanbul buluşması Aralık, ilk pilot fırsatı Ağustos 2027 hasadı. Ayrıntılı plan: [ROADMAP.md](ROADMAP.md).
+Son güncelleme: 18 Kasım 2026. Önemli tarihler: GSC Phase 1 teslimi 22 Kasım 23:59 UTC, İstanbul buluşması Aralık, ilk pilot fırsatı Ağustos 2027 hasadı. Ayrıntılı plan: [ROADMAP.md](ROADMAP.md).
 
 ## Bu hafta: GSC teslimi
 
 - [x] GSC teklifi hazırlandı, yeni adla güncellendi; rakip/benzer firmalar slaytı eklendi (21 slayt)
-- [ ] GSC takım adını ve özetini formda "Gleanly" yap; takım görselini yenisiyle değiştir (`docs/gsc/gleanly_team_1024x576.png`)
-- [ ] Teklifi PDF olarak dışa aktar (10 MB altı), 5. sayfadaki rakip slaytının taşmadığını kontrol et, forma yükle
-- [ ] 2 dakikayı geçmeyen proje tanıtım videosunu çek, YouTube'a "liste dışı" yükle, bağlantıyı forma yapıştır
-- [ ] Formdaki üç beyan kutusunu işaretle (belge yüklendikten sonra) ve gönder
-- [ ] LinkedIn gönderisindeki görselleri yenileriyle değiştir (`docs/linkedin/`)
+- [x] GSC takım adı, özeti ve takım görseli "Gleanly" olarak güncellendi
+- [x] Teklif PDF'i (21 sayfa, 1,2 MB) yeni logo ve ekran görüntüleriyle hazırlandı, taşma kontrolü yapıldı; Türkçe sürümü `docs/gsc/` içinde
+- [x] Proje tanıtım videosu çekildi (2:02), YouTube'a "liste dışı" yüklendi, İngilizce altyazı eklendi
+- [x] GSC formu 18 Kasım 21:54'te gönderildi (son tarih 22 Kasım 23:59 UTC; belgeler o güne kadar güncellenebilir)
+- [ ] LinkedIn gönderisindeki eski bağlantıları (`climathon-gapcuk-ai`) ve görselleri yenileriyle değiştir
 - [ ] GitHub "About" bölümündeki web sitesi alanı `https://blosny.github.io/gleanly/` olsun
 
 ## Marka (Gapçuk AI → Gleanly)
 
 - [x] Arayüz, kod, README, simülasyon ve kaynakça yeni adla; yeni logo ve favicon
 - [x] Depo adı `gleanly`, Pages adresi `blosny.github.io/gleanly` (eski adres kapandı)
-- [x] Site açık (kırık beyaz) temaya geçti: koyu orman yeşili `#14532D`, açık yeşil `#84CC16`, zemin `#F7F5EF`. Simülasyon sayfası koyu sahne olarak kaldı
+- [x] Site yeni logo paletine geçti: ana yeşil `#1E9E5A`, koyu yeşil `#167A45`, toprak `#C9935E`, yazı `#0F2E24`, zemin `#F9FAF9` (bkz. `brand/README.md`). Simülasyon sayfası koyu sahne olarak kaldı
 - [ ] TÜRKPATENT ve WIPO marka araması ("Glean" adlı büyük bir yazılım firması var, benzerlik riski)
 - [ ] gleanly.ai / .io / .co alan adlarını ve sosyal medya hesaplarını ayır (.com alınmış)
-- [ ] Vercel yedek adresi ve eski belgeler (PDR, Creathon decki) yeni adla güncellenecek ya da kaldırılacak
-- [ ] Video anlatısını en sonda güncelle: ilk pilot fındık zürufu, amaç toplanabilecek tüm biyokütle atıkları ve biyoyakıt hammaddeleri
+- [x] README'den eski Vercel yedek adresi kaldırıldı; Vercel panelinde proje yeniden adlandırılacak ya da silinecek
+- [ ] Eski belgeler (PDR, Creathon decki) yeni adla güncellenecek ya da arşive alınacak
+- [x] Link önizleme (Open Graph) etiketleri ve `og-image.png` eklendi
 
 ## Hesaplar (yüksek öncelik)
 

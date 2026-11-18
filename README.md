@@ -1,13 +1,20 @@
-# Gleanly
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="brand/gleanly-logo-dark.png">
+    <img src="brand/gleanly-logo.png" alt="Gleanly: Circular Resource Intelligence" width="420">
+  </picture>
+</p>
 
-<img src="src/assets/logo-readme.png" alt="Gleanly logosu" width="120" align="right">
+<p align="center">
+  <img alt="Climathon 2026" src="https://img.shields.io/badge/Climathon%202026-Siemens%20%C2%B7%20YGA%20%C2%B7%20UP%20School-0F2E24">
+  <img alt="Sonuç" src="https://img.shields.io/badge/Sonu%C3%A7-5.%20s%C4%B1ra-C9935E">
+  <img alt="İlk pilot" src="https://img.shields.io/badge/%C4%B0lk%20pilot-Ordu%20%2F%20%C3%9Cnye-167A45">
+  <a href="https://blosny.github.io/gleanly/"><img alt="Demo" src="https://img.shields.io/badge/Demo-GitHub%20Pages-1E9E5A"></a>
+</p>
 
-![Climathon 2026](https://img.shields.io/badge/Climathon%202026-Siemens%20%C2%B7%20YGA%20%C2%B7%20UP%20School-0F766E)
-![Sonuç](https://img.shields.io/badge/Sonu%C3%A7-5.%20s%C4%B1ra-D97706)
-![Pilot](https://img.shields.io/badge/Pilot-Ordu%20%2F%20%C3%9Cnye-15803D)
-[![Demo](https://img.shields.io/badge/Demo-GitHub%20Pages-2563EB)](https://blosny.github.io/gleanly/)
+**Gleanly** (eski adı Gapçuk AI), tarlada ve bahçede kalan tarımsal biyokütleyi (meyve ve sebze artıkları, hasat ve budama artığı) yakılan bir atıktan temiz enerjiye ve komposta dönüştürmeyi hedefleyen döngüsel bir kaynak lojistiği platformu. Amaç, toplanabilecek tüm bu atıkları aynı sistemle köyden alıcıya taşımak; bildirim, rota, nem ve alıcı eşleştirmesi atık türünden bağımsız bir yapıya taşınacak.
 
-**Gleanly** (eski adı Gapçuk AI), tarlada kalan tarımsal atığı yakılan bir atıktan temiz enerjiye ve komposta dönüştüren döngüsel bir lojistik platformu. İlk pilot, Ordu / Ünye'de fındık zürufu (yöresel adıyla gapçuk) ile planlanıyor; ikinci atık türleri sonraki aşamada eklenecek. **Siemens, YGA ve UP School Climathon 2026** programında geliştirildi.
+**İlk pilot** Ordu / Ünye'de **fındık zürufu** (yöresel adıyla gapçuk) ile planlanıyor. Bu sayfadaki sayılar, uygulama ve hesaplar şu an yalnızca fındık zürufu için hazırlandı; diğer atık türleri pilot sonrasında eklenecek. **Siemens, YGA ve UP School Climathon 2026** programında geliştirildi.
 
 **Stack:** HTML · CSS · Vanilla JavaScript · Leaflet · OpenStreetMap · OSRM · Open-Meteo · React 18 · GitHub Pages
 
@@ -26,7 +33,9 @@
 | GleanlyBio | Külleme riskini hesaplar, atığı santrale ya da komposta yönlendirir | Çalışıyor |
 | Döngü simülasyonu | Atığın harmandan santrale ve toprağa dönüşünü canlandırır | Çalışıyor |
 
-## Problem
+## Problem (ilk pilot: fındık zürufu)
+
+Aşağıdaki veriler yalnızca ilk pilot olan fındık zürufu içindir. Aynı toplama ve yönlendirme sorununun meyve, sebze ve diğer tarımsal atıklarda da olduğu, pilot sonrasında saha görüşmeleriyle doğrulanacak.
 
 - Patoz çoğu zaman tek şeritli köy yollarında yapılır; çıkan zürufun düzenli bir toplama mekanizması yoktur.
 - Çiftçi yolu açmak için atığı ya **yakar** ya da bahçeye **çiğ serer**. Zürufun C/N oranı yüksektir (yaklaşık 33:1) ve literatürde doğrudan tarlaya uygulanması uygun bulunmaz [K3]. Açıkta yakma ise CH₄ ve N₂O açığa çıkarır [K5].
@@ -79,7 +88,7 @@ Uygulamadaki tüm sayıların dayanağı ve doğrulama durumu [Kaynakça ve Doğ
 - Bot yanıtlarını bir dil modeline taşımak, WhatsApp Business API ile gerçek mesajlaşma
 - Ünye'de üreticiler, ziraat odası ve santralle saha görüşmeleri
 - Rota tasarrufunu saha verisiyle ölçmek
-- Sistemi fındık dışındaki tarımsal atıklara uyarlamak
+- Sistemi fındık dışındaki meyve, sebze ve diğer tarımsal atıklara uyarlamak (atık türüne göre nem sınırı, çuval ağırlığı ve alıcı ayarları)
 
 ## Yerel Çalıştırma
 
